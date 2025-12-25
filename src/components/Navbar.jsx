@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import Logo from "../assets/img/logo/logo.png";
+import Logo from "../assets/img/logo/Rmed.png";
 import { useState } from "react";
 import { FaLine, FaPhoneAlt } from "react-icons/fa";
 
