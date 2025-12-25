@@ -1,0 +1,92 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Orbitron';
+  src: url('./assets/fonts/DB_Helvethaica_X_Bd.ttf') format('truetype');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'DB Helvethaica X';
+  src: url('./assets/fonts/DB_Helvethaica_X.ttf') format('truetype');
+  font-weight: 700;
+}
+
+/* @font-face {
+  font-family: 'DB Helvethaica X';
+  src: url('./assets/fonts/DB_Helvethaica_X_Li_v3.2.ttf') format('truetype');
+  font-weight: 300;
+} */
+
+@font-face {
+  font-family: 'DB Helvethaica X';
+  src: url('./assets/fonts/DB_Helvethaica_X.ttf') format('truetype');
+  font-weight: 400;
+}
+
+/* @font-face {
+  font-family: 'DB Helvethaica X';
+  src: url('../../assets/fonts/DB_Helvethaica_X_Med 3 copy.ttf') format('truetype');
+  font-weight: 500;
+} */
+
+/* @font-face {
+  font-family: 'DB Helvethaica X';
+  src: url('./assets/fonts/DB_Helvethaica_X_Bd.ttf') format('truetype');
+  font-weight: 700;
+} */
+
+
+
+:root {
+  --primary: #d59f38;
+  --text: #e1c78f;
+  --background-start: #ffffff;
+  --background-end: #ffffff;
+  --texthero: #ddddddd7
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: 'DB Helvethaica X', sans-serif;
+  background: linear-gradient(160deg, var(--background-start), var(--background-end));
+  color: var(--text);
+  /* overflow-x: hidden; */
+}
+
+
+/* ========= translate Css =========== */
+.goog-te-banner-frame,
+.goog-te-balloon-frame,
+[class^="VIpgJd"],
+iframe[id^=":"] {
+  display: none !important;
+  opacity: 0 !important;
+  visibility: hidden !important;
+  height: 0 !important;
+}
+
+/* ป้องกัน body ถูกดันลง */
+body {
+  top: 0 !important;
+}
+
+/* ซ่อน tooltip highlight */
+.goog-tooltip,
+.goog-tooltip:hover {
+  display: none !important;
+}
+
+/* ซ่อนพื้นหลังไฮไลต์ที่ Google สร้าง */
+.goog-text-highlight {
+  background: transparent !important;
+  box-shadow: none !important;
+}
