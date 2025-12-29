@@ -54,7 +54,7 @@ function NavBar() {
               </div>
               <div className="flex flex-col leading-tight">
                 <span className="text-lg md:text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#b38b4d] to-[#d4a574] transition-all duration-300">
-                  Prized Mad Academy
+                  Prize Med Academy
                 </span>
               </div>
             </Link>

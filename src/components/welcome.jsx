@@ -7,7 +7,7 @@ function Welcome_Page() {
     <section className="min-h-[80vh] flex items-center justify-center bg-gray-50">
       <div className="max-w-xl w-full  mx-auto bg-white rounded-2xl shadow-xl p-10 text-center">
         <h1 className="text-4xl font-bold text-pink-600 mb-3">
-          Prize Mad Academy
+          Prize Med Academy
         </h1>
 
         <h2 className="text-lg text-gray-500 mb-6">Welcome to home page</h2>
